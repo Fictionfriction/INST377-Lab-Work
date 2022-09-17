@@ -8,40 +8,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <h1>Jason's Labs For INST377</h1>
-    <div>
-      <h2>Albums</h2>
-      <ol>
-        <li>Pet Sounds</li>
-        <li>The Blue Album</li>
-        <li>Kid A</li>
-        <li>Jar Of Flies</li>
-        <li>Blue Neighborhood</li>
-      </ol>
-    </div>
-    <div>
-      <h2>Image Carousel</h2>
-      <div>
-        <img src="images/mochi.gif" alt="mochi">
-        <img src="images/mochi.jpg" alt="mochi">
-        <img src="images/mochi.png" alt="mochi">
-        <img src="images/mochi.svg" alt="mochi">
+  <div class="wrapper">
+    <header class="header"><h1>Jason's Labs For INST377</h1></header>
+    <div class="container">
+      <div class="left_section box">
+        <h2 class="subtitle">Albums</h2>
+        <ol class="box ">
+          <li>Pet Sounds</li>
+          <li>The Blue Album</li>
+          <li>Kid A</li>
+          <li>Jar Of Flies</li>
+          <li>Blue Neighborhood</li>
+        </ol>
       </div>
-      <div>
-        <p>Images of mochi.</p>
+      <div class="right_section box">
+        <h2 class="subtitle">Image Carousel</h2>
+        <div class="grid">
+          <img src="images/mochi.gif" alt="mochi">
+          <img src="images/mochi.jpg" alt="mochi">
+          <img src="images/mochi.png" alt="mochi">
+          <img src="images/mochi.svg" alt="mochi">
+        </div>
+        <div>
+          <p class="box">Images of mochi.</p>
+        </div>
       </div>
     </div>
   </div>
-  <footer>Fictionfriction <a href="https://github.com/Fictionfriction">https://github.com/Fictionfriction</a></footer>
+  <footer class="footer">Fictionfriction <a href="https://github.com/Fictionfriction">https://github.com/Fictionfriction</a></footer>
 </body>
 </html>
-
-Hook it up to CSS by including style.css in the <head> tag
-
-Then add CSS class names to your HTML to make it look like the lab pictures.
-For example: <div class="selector">
-
-You should not need to edit the CSS to do this, only the HTML.
-
-Don't forget to add an actual set of image descriptions to your image carousel.
