@@ -11,7 +11,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jason Kearney Lab 1</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" ></script>
 </head>
 <body>
   <div class="wrapper">
@@ -29,11 +28,15 @@
       </div>
       <div class="right_section box">
         <h2 class="subtitle">Image Carousel</h2>
-        <div class="grid">
-          <img src="images/penguin1.jpeg" alt="mochi">
-          <img src="images/penguin2.png" alt="mochi">
-          <img src="images/penguin3.jpeg" alt="mochi">
-          <img src="images/penguin4.webp" alt="mochi">
+        <div class="carousel">
+            <button class="prev">prev</button>
+            <div class="slides">
+              <div class="carousel_item"><img src="images/penguin1.jpeg" alt="penguin"></div>
+              <div class="carousel_item"><img src="images/penguin2.png" alt="penguin"></div>
+              <div class="carousel_item"><img src="images/penguin3.jpeg" alt="penguin"></div>
+              <div class="carousel_item"><img src="images/penguin4.webp" alt="penguin"></div>
+            </div>
+            <button class="next">next</button>
         </div>
         <div>
           <p class="box">Images of mochi.</p>
@@ -42,5 +45,6 @@
     </div>
   </div>
   <footer class="footer">Fictionfriction <a href="https://github.com/Fictionfriction">https://github.com/Fictionfriction</a></footer>
+  <script src="script.js" ></script>
 </body>
 </html>
